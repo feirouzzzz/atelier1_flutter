@@ -11,11 +11,11 @@ class ProduitsList extends StatefulWidget {
 
 class _ProduitsListState extends State<ProduitsList> {
   List<List<dynamic>> liste = [
-    ['1 Produit', false],
-    ['2 Produit', true],
-    ['3 Produit', false],
-    ['4 Produit', false],
-    ['5 Produit', false],
+    [' Produit 1', false],
+    [' Produit 2', true],
+    [' Produit 3', false],
+    [' Produit 4', false],
+    [' Produit 5', false],
   ];
 
   final TextEditingController nomController = TextEditingController();
